@@ -20,7 +20,7 @@ export async function analyzeBarcode(barcode) {
     throw new Error(
       error.response?.data?.error || 
       'Failed to analyze barcode. Please try again.'
-    );
+    );//hi
   }
 }
 
